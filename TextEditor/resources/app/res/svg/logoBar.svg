@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2099.699 -6710.596 228.551 66.724">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 21px;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        letter-spacing: 0.05em;
+      }
+
+      .cls-3 {
+        font-family: Roboto-Regular, Roboto;
+        font-weight: 400;
+      }
+
+      .cls-4 {
+        fill: #e8e8e8;
+      }
+
+      .cls-5 {
+        fill: #bfbfbf;
+      }
+
+      .cls-6 {
+        fill: #d5d5d5;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+
+      .cls-8 {
+        fill: #a2a2a2;
+      }
+
+      .cls-9 {
+        fill: #b7b7b7;
+      }
+
+      .cls-10 {
+        fill: #444;
+      }
+
+      .cls-11 {
+        fill: #5b5b5b;
+      }
+    </style>
+  </defs>
+  <g id="Gruppe_24" data-name="Gruppe 24" transform="translate(-2161 -6749)">
+    <text id="ACADEMYTOOLS" class="cls-1" transform="translate(124.851 87.871)"><tspan x="0" y="0">ACADEM</tspan><tspan class="cls-2" y="0">Y</tspan><tspan class="cls-3" y="0">TOOLS</tspan></text>
+    <g id="Gruppe_6" data-name="Gruppe 6" transform="translate(-803.499 -2183.096)">
+      <path id="Differenzmenge_1" data-name="Differenzmenge 1" class="cls-4" d="M-3329.214-1095.787l-21.19-10.249,2.518-1.152,18.677,9.047,18.58-9.032,2.469,1.137Z" transform="translate(4222.09 3367.424)"/>
+      <path id="Pfad_26" data-name="Pfad 26" class="cls-4" d="M1.026,1,3.711,0,2.785,2.759,0,3.711Z" transform="translate(867.424 2256.109) rotate(45)"/>
+      <path id="Pfad_18" data-name="Pfad 18" class="cls-4" d="M10.807,10.677,39.713,0,29.453,29.531,0,39.713Z" transform="translate(892.918 2221.5) rotate(45)"/>
+      <path id="Pfad_23" data-name="Pfad 23" class="cls-5" d="M-.783-42.052,20.27-52.3v16.589L-.8-25.463Z" transform="translate(893.659 2313.687)"/>
+      <path id="Pfad_28" data-name="Pfad 28" class="cls-5" d="M-.9,2.671,1.715,1.4V8.968L-.9,10.239Z" transform="translate(868.333 2257.333)"/>
+      <path id="Pfad_24" data-name="Pfad 24" class="cls-5" d="M-.8,25.608,27.337,12v3.775L-.8,29.383Z" transform="translate(893.663 2237.582)"/>
+      <path id="Pfad_21" data-name="Pfad 21" class="cls-6" d="M19.806-42.052-1.4-52.3v16.589L19.772-25.463Z" transform="translate(873.087 2313.687)"/>
+      <path id="Pfad_22" data-name="Pfad 22" class="cls-6" d="M27.226,25.608-.8,12v3.775L27.226,29.383Z" transform="translate(865.637 2237.582)"/>
+      <path id="Pfad_25" data-name="Pfad 25" class="cls-7" d="M471.2,289.1s11.564,6.058,23.055,6.058,22.907-6.058,22.907-6.058" transform="translate(398.645 1990.147)"/>
+      <path id="Pfad_30" data-name="Pfad 30" class="cls-6" d="M1.375,2.571-1.258,1.3V8.85l2.633,1.289Z" transform="translate(866.058 2257.434)"/>
+      <path id="Pfad_32" data-name="Pfad 32" class="cls-8" d="M2596.1,803.6v-1.547l2.615-1.252Z" transform="translate(-1728.667 1465.502)"/>
+      <path id="Pfad_33" data-name="Pfad 33" class="cls-9" d="M2598.633,803.517v-1.547L2596,800.7Z" transform="translate(-1731.2 1465.583)"/>
+      <path id="Pfad_34" data-name="Pfad 34" class="cls-10" d="M2596.1,813.518l.467-.2-.467.5Z" transform="translate(-1728.667 1455.288)"/>
+      <path id="Pfad_35" data-name="Pfad 35" class="cls-11" d="M2596.469,813.518l-.469-.2.469.5Z" transform="translate(-1729.035 1455.288)"/>
+      <path id="Pfad_39" data-name="Pfad 39" class="cls-10" d="M.306.3l.8-.3L.831.823,0,1.107Z" transform="translate(867.424 2257.951) rotate(45)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,439 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    -webkit-app-region: no-drag;
+    /* align-items: center; */
+}
+
+header {
+
+    font-family: "Roboto";
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100vw;
+	background: #37393C;
+	/*-webkit-app-region: drag;*/
+	z-index: 100000;
+	user-select: none;
+
+}
+
+img {
+    width: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.helper {
+	-webkit-app-region: drag; 
+	position: absolute; 
+	right: 138px;
+	top: 0px;
+	background: transparent;
+	height: 30px;
+	width: 100%;
+	z-index: 999;
+}
+
+#headerText {
+
+	position: absolute;
+	color: #FFF;
+	font-size: 11px;
+	font-weight: 300;
+	margin-top: 9px; 
+	left: 20px;
+
+}
+
+#x {
+    border-radius: 0;
+	width: 9px;
+	height: 9px;
+	margin-bottom: 2px;
+	/*margin-right: 18.5px;*/
+
+}
+
+#xButton {
+
+	position: absolute;
+	right: 0;
+	width: 46px;
+	height: 30px;
+	border-style: none;
+	background: transparent;
+	cursor: pointer;
+	transition: .2s;
+
+}
+
+#xButton:hover {
+
+	background: #FF4747;
+
+}
+
+#xButton:focus {
+
+	outline: none;
+
+}
+
+#xButton:active {
+
+	background: #FF6060;
+
+}
+
+#small {
+    border-radius: 0;
+	width: 10px;
+	height: 10px;
+	margin-bottom: 1px;
+	/*margin-right: 18.5px;*/
+
+}
+
+#smallButton {
+
+	position: absolute;
+	right: 46px;
+	width: 46px;
+	height: 30px;
+	border-style: none;
+	background: transparent;
+	cursor: pointer;
+	transition: .2s;
+
+}
+
+#smallButton:hover {
+
+	background: #5E5E5E;
+
+}
+
+#smallButton:focus {
+
+	outline: none;
+
+}
+
+#smallButton:active {
+
+	background: #505050;
+
+}
+
+#small2 {
+	border-radius: 0;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 1px;
+    /*margin-right: 18.5px;*/
+
+}
+
+#smallButton2 {
+
+    position: absolute;
+    right: 46px;
+    width: 46px;
+    height: 30px;
+    border-style: none;
+    background: transparent;
+    cursor: pointer;
+    transition: .2s;
+
+}
+
+#smallButton2:hover {
+
+    background: #5E5E5E;
+
+}
+
+#smallButton2:focus {
+
+    outline: none;
+
+}
+
+#smallButton2:active {
+
+    background: #505050;
+
+}
+
+#minimize {
+    border-radius: 0;
+	width: 10px;
+	height: 1px;
+	margin-bottom: 5px;
+	/*margin-right: 18.5px;*/
+
+}
+
+#minimizeButton {
+
+	position: absolute;
+	right: 92px;
+	width: 46px;
+	height: 30px;
+	border-style: none;
+	background: transparent;
+	cursor: pointer;
+	transition: .2s;
+
+}
+
+#minimizeButton:hover {
+
+	background: #5E5E5E;
+
+}
+
+#minimizeButton:focus {
+
+	outline: none;
+
+}
+
+#minimizeButton:active {
+
+	background: #505050;
+
+}
+
+::-webkit-scrollbar { 
+    width: 0 !important; 
+    height: 0 !important;
+}
+
+.main {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 100vw;
+    height: calc(100vh - 30px);
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    background-color: #E0E5EA;
+}
+
+.overflow {
+    width: fit-content;
+    height: fit-content;
+}
+
+.bodyWrapper {
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    width: 90vw;
+    min-height: 50vh;
+    /* height: fit-content; */
+    padding-bottom: 50px;
+    box-shadow: 0px 32px 34px rgba(130, 146, 164, 0.28);
+    background: white;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.articleDropdown {
+    color: #37393C;
+    position: absolute;
+    left: 25px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.articleDropdown:hover {
+    /* transform: rotateZ(-90deg); */
+    color: #5AC8FA;
+}
+
+.articleShort {
+    font-family: "Nunito";
+    font-size: 14px;
+    color: #37393C;
+    opacity: .75;
+}
+
+.articleShort[unsaved]::before {
+    content: "* ";
+}
+
+.articleCount {
+    font-family: "Nunito";
+    font-size: 12px;
+    color: #37393C;
+    position: absolute;
+    right: 25px;
+}
+
+.content {
+    /* height: calc(85vh - 50px); */
+    position: relative;
+    width: 100%;
+    top: 50px;
+}
+
+.articleTop {
+    width: 50%;
+    margin: 55px auto;
+}
+
+.articleHeader {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    padding-bottom: 3px;
+    font-family: "Song Myung";
+    font-size: 35px;
+    line-height: 37px;
+    color: #37393C;
+    position: relative;
+}
+
+.articleHeader::selection {
+    background: #5AC8FA;
+    color: white;
+}
+
+.articleHeader *::selection {
+    background: #5AC8FA;
+    color: white;
+}
+
+*::selection {
+    background: #5AC8FA;
+    color: white;
+}
+
+.articleHeader:focus {
+    outline: none;
+}
+
+.articleAuthor {
+    margin-top: 15px;
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    font-family: "Nunito";
+    font-size: 15px;
+    color: #B3B4B6;
+    position: relative;
+}
+
+.articleAuthor::selection {
+    background: #5AC8FA;
+    color: white;
+}
+
+.articleAuthor *::selection {
+    background: #5AC8FA;
+    color: white;
+}
+
+.articleAuthor:focus {
+    outline: none;
+}
+
+.articleContentWrapper {
+    position: relative;
+    margin: 70px auto;
+    max-width: 70%;
+    width: 70%;
+    font-size: 18px;
+    line-height: 34px;
+    color: #433E3E;
+    font-family: "Adamina";
+}
+
+.articleText::selection {
+    background: #5AC8FA;
+    color: white;
+}
+
+.articleText *::selection {
+    background: #5AC8FA;
+    color: white;
+}
+
+.articleText:focus {
+    outline: none;
+}
+
+.articleText b {
+    font-weight: 600;
+}
+
+.articleText i {
+    font-style: italic;
+}
+
+/* .articleText ul li::before {
+    content: "•";
+    margin-right: 15px;
+    font-size: 18px;
+    color: #433E3E;
+} */
+
+.articleText ul {
+    list-style: inside;
+    list-style-type: disc;
+}
+
+.articleText ol {
+    list-style: inside;
+    list-style-type: decimal;
+}
+
+pre {
+    padding: 15px;
+    background: #282c34;
+    border-radius: 5px;
+    color: rgb(187, 187, 187);
+    font-family: Consolas, "Courier New", monospace;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+/* .articleText ol li::before {
+    margin-right: 50px;
+    font-size: 18px;
+    color: #433E3E;
+} */
+
+#modal {
+    display: none;
+    position: absolute;
+    width: 360px;
+    cursor: pointer;
+    opacity: .8;
+    z-index: 50;
+    /* box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.21); */
+    transition: .2s;
+}
+
+

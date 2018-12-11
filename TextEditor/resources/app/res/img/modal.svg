@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360.477 51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #454f5b;
+        stroke: #454f5b;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke: #637381;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #4cd964;
+        stroke: #4cd964;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-5 {
+        stroke: #919eab;
+      }
+    </style>
+  </defs>
+  <g id="Group_25" data-name="Group 25" transform="translate(-964.293 -87.5)">
+    <path id="Combined_Shape_Copy_4" data-name="Combined Shape Copy 4" class="cls-1" d="M979.9,138a6,6,0,0,1-6-6V121.9L965,113l8.9-8.9V94a6,6,0,0,1,6-6H1318.27a6,6,0,0,1,6,6v38a6,6,0,0,1-6,6Z"/>
+    <g id="Group_3_Copy_2" data-name="Group 3 Copy 2">
+      <g id="x-circle">
+        <circle id="Oval" class="cls-2" cx="10" cy="10" r="10" transform="translate(1263 103)"/>
+        <line id="Shape" class="cls-2" x1="6" y2="6" transform="translate(1270 110)"/>
+        <line id="Shape-2" data-name="Shape" class="cls-2" x2="6" y2="6" transform="translate(1270 110)"/>
+      </g>
+      <g id="x-circle_copy" data-name="x-circle copy">
+        <circle id="Oval-2" data-name="Oval" class="cls-3" cx="10" cy="10" r="10" transform="translate(1290 103)"/>
+        <path id="Shape-3" data-name="Shape" class="cls-4" d="M1296,112.951l3.485,2.979L1304,111"/>
+      </g>
+    </g>
+    <g id="type_copy_2" data-name="type copy 2">
+      <path id="Shape-4" data-name="Shape" class="cls-5" d="M997,108v-3h16v3"/>
+      <line id="Shape-5" data-name="Shape" class="cls-5" x2="6" transform="translate(1002 121)"/>
+      <line id="Shape-6" data-name="Shape" class="cls-5" y2="16" transform="translate(1005 105)"/>
+    </g>
+    <g id="italic_copy" data-name="italic copy">
+      <line id="Shape-7" data-name="Shape" class="cls-5" x1="9" transform="translate(1077 105)"/>
+      <line id="Shape-8" data-name="Shape" class="cls-5" x1="9" transform="translate(1072 121)"/>
+      <line id="Shape-9" data-name="Shape" class="cls-5" x1="6" y2="16" transform="translate(1076 105)"/>
+    </g>
+    <g id="underline_copy" data-name="underline copy">
+      <path id="Shape-10" data-name="Shape" class="cls-5" d="M1115,104v7a6,6,0,0,1-12,0v-7"/>
+      <line id="Shape-11" data-name="Shape" class="cls-5" x2="16" transform="translate(1101 122)"/>
+    </g>
+    <g id="bold_copy" data-name="bold copy">
+      <path id="Shape-12" data-name="Shape" class="cls-5" d="M1044,113h8a4,4,0,1,0,0-8h-8Z"/>
+      <path id="Shape-13" data-name="Shape" class="cls-5" d="M1044,121h9a4,4,0,0,0,0-8h-9Z"/>
+    </g>
+    <g id="sliders_copy" data-name="sliders copy">
+      <line id="Shape-14" data-name="Shape" class="cls-5" y1="7" transform="translate(1151 115)"/>
+      <line id="Shape-15" data-name="Shape" class="cls-5" y1="7" transform="translate(1151 104)"/>
+      <line id="Shape-16" data-name="Shape" class="cls-5" y1="9" transform="translate(1159 113)"/>
+      <line id="Shape-17" data-name="Shape" class="cls-5" y1="5" transform="translate(1159 104)"/>
+      <line id="Shape-18" data-name="Shape" class="cls-5" y1="5" transform="translate(1167 117)"/>
+      <line id="Shape-19" data-name="Shape" class="cls-5" y1="9" transform="translate(1167 104)"/>
+      <line id="Shape-20" data-name="Shape" class="cls-5" x2="6" transform="translate(1148 115)"/>
+      <line id="Shape-21" data-name="Shape" class="cls-5" x2="6" transform="translate(1156 109)"/>
+      <line id="Shape-22" data-name="Shape" class="cls-5" x2="6" transform="translate(1164 117)"/>
+    </g>
+    <g id="menu_copy" data-name="menu copy">
+      <line id="Shape-23" data-name="Shape" class="cls-5" x2="18" transform="translate(1217 113)"/>
+      <line id="Shape-24" data-name="Shape" class="cls-5" x2="18" transform="translate(1217 107)"/>
+      <line id="Shape-25" data-name="Shape" class="cls-5" x2="18" transform="translate(1217 119)"/>
+    </g>
+    <g id="droplet_copy" data-name="droplet copy">
+      <path id="Shape-26" data-name="Shape" class="cls-5" d="M1187.35,109.35a8,8,0,1,0,11.31,0l-5.66-5.66Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2879 -5484 10 10">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #e4e4e4;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: #e4e4e4;
+      }
+    </style>
+  </defs>
+  <g id="small" transform="translate(-4725 -5495)">
+    <g id="Pfad_117" data-name="Pfad 117" class="cls-1" transform="translate(1848 11)">
+      <path class="cls-3" d="M0,0H8V8H5.026V2.989H0Z"/>
+      <path class="cls-4" d="M 7 7 L 7 1 L 1 1 L 1 1.989259958267212 L 5.025629997253418 1.989259958267212 L 6.025629997253418 1.989259958267212 L 6.025629997253418 2.989259958267212 L 6.025629997253418 7 L 7 7 M 8 8 L 5.025629997253418 8 L 5.025629997253418 2.989259958267212 L 0 2.989259958267212 L 0 0 L 8 0 L 8 8 Z"/>
+    </g>
+    <g id="Rechteck_20" data-name="Rechteck 20" class="cls-2" transform="translate(1846 13)">
+      <rect class="cls-3" width="8" height="8"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="7" height="7"/>
+    </g>
+  </g>
+</svg>
