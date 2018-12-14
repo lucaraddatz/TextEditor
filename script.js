@@ -27,28 +27,11 @@ function checkWords() {
     } catch (error) {
         document.getElementById('articleCount').innerText = 0 + " words";        
     }
-
-    try {
-        // $('pre code').each(function (i, block) {
-        //     hljs.highlightBlock(block);
-        // });
-
-        // jQuery(() => {
-        //     $('pre code').each(function (i, block) {
-        //         hljs.highlightBlock(block);
-        //     });
-        // })
-
-        // var c = document.getElementsByClassName("code");
-        // console.log(c);
-
-    } catch (error) {
-        console.log(error);
-    }
-
-    // $('pre code').each(function (i, block) {
-    //     hljs.highlightBlock(block);
-    // });
+	
+	//TODO set caret position after highlighting code
+    $('pre code').each(function (i, block) {
+		hljs.highlightBlock(block);
+    });
 
 }
 
@@ -323,7 +306,7 @@ function closeModal() {
     timerClose = setTimeout(() => {
         document.getElementById("modal").style.opacity = '0';
         setTimeout(() => {
-            document.getElementById("modal").style.display = "none";
+            //document.getElementById("modal").style.display = "none";
             document.getElementById("modal").style.opacity = '0.8';
 
             //TODO:
